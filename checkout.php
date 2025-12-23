@@ -11,6 +11,7 @@ $user_id = $_SESSION['user_id'];
 $total_amount = $_POST['total_amount'] ?? 0;
 $payment_method = 'transfer'; // bisa disesuaikan
 
+// TESTING
 // Simpan order baru
 mysqli_query($conn, "
     INSERT INTO orders (user_id, total_amount, status, payment_method)
