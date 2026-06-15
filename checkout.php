@@ -10,6 +10,7 @@ if (!isset($_SESSION['user_id'])) {
 $user_id = $_SESSION['user_id'];
 $total_amount = $_POST['total_amount'] ?? 0;
 $payment_method = 'transfer'; // bisa disesuaikan
+// TEST
 
 // Simpan order baru
 mysqli_query($conn, "
